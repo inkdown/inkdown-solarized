@@ -1,5 +1,5 @@
-html[data-theme="solarized-plus-dark"],
-[data-theme="solarized-plus-dark"] {
+html[data-theme="solarized-dark"],
+[data-theme="solarized-dark"] {
   color-scheme: dark;
 
   --base03: #1c2426;
