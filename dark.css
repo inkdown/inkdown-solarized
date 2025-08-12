@@ -1,29 +1,27 @@
-html[data-theme="solarized-dark"],
-[data-theme="solarized-dark"] {
+html[data-theme="solarized-plus-dark"],
+[data-theme="solarized-plus-dark"] {
   color-scheme: dark;
 
-  /* Solarized Base Colors */
-  --base03: #002b36;
-  --base02: #073642;
-  --base01: #586e75;
-  --base00: #657b83;
-  --base0:  #839496;
-  --base1:  #93a1a1;
-  --base2:  #eee8d5;
-  --base3:  #fdf6e3;
+  --base03: #1c2426;
+  --base02: #273033;
+  --base01: #6e797c;
+  --base00: #7d888b;
+  --base0:  #c1c7c9;
+  --base1:  #d2d6d8;
+  --base2:  #eaeaea;
+  --base3:  #fdfdfd;
 
-  /* Accent Colors */
-  --yellow:  #b58900;
-  --orange:  #cb4b16;
-  --red:     #dc322f;
-  --magenta: #d33682;
-  --violet:  #6c71c4;
-  --blue:    #268bd2;
-  --cyan:    #2aa198;
-  --green:   #859900;
+  --yellow:  #d8a600;
+  --orange:  #e07b39;
+  --red:     #e34d4d;
+  --magenta: #cc66a0;
+  --violet:  #8a7fdf;
+  --blue:    #4d94c4; 
+  --cyan:    #3fb0a5;
+  --green:   #8bbf5e;
 
-  /* Theme Variables */
-  --theme-primary: var(--blue);
+  /* Theme Vars */
+  --theme-primary: var(--orange);
   --theme-primary-foreground: var(--base03);
   --theme-secondary: var(--base02);
   --theme-secondary-foreground: var(--base0);
@@ -35,7 +33,7 @@ html[data-theme="solarized-dark"],
   --theme-accent-foreground: var(--base0);
   --theme-border: var(--base00);
   --theme-input: var(--base02);
-  --theme-ring: var(--blue);
+  --theme-ring: var(--orange);
   --theme-destructive: var(--red);
   --theme-destructive-foreground: var(--base03);
 
@@ -56,32 +54,32 @@ html[data-theme="solarized-dark"],
   --theme-editor-active-line: var(--base02);
   --theme-editor-scrollbar: var(--base00);
 
-  /* Syntax Highlighting */
-  --syntax-keyword: var(--green);
-  --syntax-string: var(--cyan);
+  /* Syntax Highlighting mais vibrante */
+  --syntax-keyword: var(--orange);
+  --syntax-string: var(--green);
   --syntax-number: var(--magenta);
   --syntax-comment: var(--base01);
-  --syntax-strong: var(--base0);
-  --syntax-emphasis: var(--base1);
+  --syntax-strong: var(--yellow);
+  --syntax-emphasis: var(--cyan);
   --syntax-heading: var(--yellow);
-  --syntax-heading-h1: var(--orange);
-  --syntax-heading-h2: var(--yellow);
-  --syntax-heading-h3: var(--green);
-  --syntax-heading-h4: var(--cyan);
-  --syntax-heading-h5: var(--blue);
+  --syntax-heading-h1: var(--red);
+  --syntax-heading-h2: var(--orange);
+  --syntax-heading-h3: var(--yellow);
+  --syntax-heading-h4: var(--green);
+  --syntax-heading-h5: var(--cyan);
   --syntax-heading-h6: var(--violet);
-  --syntax-link: var(--blue);
-  --syntax-url: var(--blue);
+  --syntax-link: var(--cyan);
+  --syntax-url: var(--cyan);
   --syntax-strikethrough: var(--base01);
-  --syntax-monospace: var(--magenta);
+  --syntax-monospace: var(--violet);
   --syntax-monospace-bg: var(--base02);
   --syntax-atom: var(--green);
   --syntax-bool: var(--magenta);
-  --syntax-regexp: var(--cyan);
+  --syntax-regexp: var(--orange);
   --syntax-meta: var(--base01);
   --syntax-punctuation: var(--base01);
 
-  /* Inkdown Specific */
+  /* Inkdown */
   --inkdown-editor-bg: var(--base03);
   --inkdown-editor-fg: var(--base0);
   --inkdown-editor-selection: var(--base01);
@@ -91,28 +89,28 @@ html[data-theme="solarized-dark"],
   --inkdown-editor-active-line: var(--base02);
   --inkdown-editor-scrollbar: var(--base00);
 
-  --inkdown-syntax-keyword: var(--green);
-  --inkdown-syntax-string: var(--cyan);
+  --inkdown-syntax-keyword: var(--orange);
+  --inkdown-syntax-string: var(--green);
   --inkdown-syntax-number: var(--magenta);
   --inkdown-syntax-comment: var(--base01);
-  --inkdown-syntax-strong: var(--base0);
-  --inkdown-syntax-emphasis: var(--base1);
-  --inkdown-syntax-link: var(--blue);
-  --inkdown-syntax-url: var(--blue);
+  --inkdown-syntax-strong: var(--yellow);
+  --inkdown-syntax-emphasis: var(--cyan);
+  --inkdown-syntax-link: var(--cyan);
+  --inkdown-syntax-url: var(--cyan);
   --inkdown-syntax-strikethrough: var(--base01);
-  --inkdown-syntax-monospace: var(--magenta);
+  --inkdown-syntax-monospace: var(--violet);
   --inkdown-syntax-monospace-bg: var(--base02);
 
-  --inkdown-heading-h1: var(--orange);
-  --inkdown-heading-h2: var(--yellow);
-  --inkdown-heading-h3: var(--green);
-  --inkdown-heading-h4: var(--cyan);
-  --inkdown-heading-h5: var(--blue);
+  --inkdown-heading-h1: var(--red);
+  --inkdown-heading-h2: var(--orange);
+  --inkdown-heading-h3: var(--yellow);
+  --inkdown-heading-h4: var(--green);
+  --inkdown-heading-h5: var(--cyan);
   --inkdown-heading-h6: var(--violet);
 
   --inkdown-syntax-atom: var(--green);
   --inkdown-syntax-bool: var(--magenta);
-  --inkdown-syntax-regexp: var(--cyan);
+  --inkdown-syntax-regexp: var(--orange);
   --inkdown-syntax-meta: var(--base01);
   --inkdown-syntax-punctuation: var(--base01);
   --inkdown-syntax-list: var(--base01);
@@ -120,7 +118,7 @@ html[data-theme="solarized-dark"],
   --inkdown-syntax-separator: var(--base01);
 }
 
-html[data-theme="solarized-dark"] body {
+html[data-theme="solarized-plus-dark"] body {
   background-color: var(--base03);
   color: var(--base0);
 }
