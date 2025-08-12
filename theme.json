@@ -1,0 +1,21 @@
+{
+  "name": "Solarized",
+  "author": "inkdown",
+  "description": "The solarized theme made by inkdown using the famous color pallete",
+  "variants": [
+    {
+      "id": "solarized-dark",
+      "name": "Solarized Dark",
+      "mode": "dark",
+      "cssFile": "dark.css"
+    },
+    {
+      "id": "solarized-light", 
+      "name": "Solarized Light",
+      "mode": "light",
+      "cssFile": "light.css"
+    }
+  ],
+  "version": "1.0.0",
+  "homepage": ""
+}
