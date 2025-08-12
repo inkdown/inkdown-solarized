@@ -1,0 +1,126 @@
+html[data-theme="solarized-light"],
+[data-theme="solarized-light"] {
+  color-scheme: light;
+
+  /* Solarized Base Colors */
+  --base03: #002b36;
+  --base02: #073642;
+  --base01: #586e75;
+  --base00: #657b83;
+  --base0:  #839496;
+  --base1:  #93a1a1;
+  --base2:  #eee8d5;
+  --base3:  #fdf6e3;
+
+  /* Accent Colors */
+  --yellow:  #b58900;
+  --orange:  #cb4b16;
+  --red:     #dc322f;
+  --magenta: #d33682;
+  --violet:  #6c71c4;
+  --blue:    #268bd2;
+  --cyan:    #2aa198;
+  --green:   #859900;
+
+  /* Theme Variables */
+  --theme-primary: var(--blue);
+  --theme-primary-foreground: var(--base3);
+  --theme-secondary: var(--base2);
+  --theme-secondary-foreground: var(--base00);
+  --theme-background: var(--base3);
+  --theme-foreground: var(--base00);
+  --theme-muted: var(--base2);
+  --theme-muted-foreground: var(--base1);
+  --theme-accent: var(--base1);
+  --theme-accent-foreground: var(--base00);
+  --theme-border: var(--base1);
+  --theme-input: var(--base2);
+  --theme-ring: var(--blue);
+  --theme-destructive: var(--red);
+  --theme-destructive-foreground: var(--base3);
+
+  /* Sidebar */
+  --theme-sidebar-background: var(--base2);
+  --theme-sidebar-foreground: var(--base00);
+  --theme-sidebar-border: var(--base1);
+  --theme-sidebar-hover: var(--base1);
+  --theme-sidebar-active: var(--base0);
+
+  /* Editor */
+  --theme-editor-background: var(--base3);
+  --theme-editor-foreground: var(--base00);
+  --theme-editor-selection: var(--base2);
+  --theme-editor-cursor: var(--base00);
+  --theme-editor-border: var(--base1);
+  --theme-editor-line-number: var(--base1);
+  --theme-editor-active-line: var(--base2);
+  --theme-editor-scrollbar: var(--base1);
+
+  /* Syntax Highlighting */
+  --syntax-keyword: var(--green);
+  --syntax-string: var(--cyan);
+  --syntax-number: var(--magenta);
+  --syntax-comment: var(--base1);
+  --syntax-strong: var(--base00);
+  --syntax-emphasis: var(--base01);
+  --syntax-heading: var(--yellow);
+  --syntax-heading-h1: var(--orange);
+  --syntax-heading-h2: var(--yellow);
+  --syntax-heading-h3: var(--green);
+  --syntax-heading-h4: var(--cyan);
+  --syntax-heading-h5: var(--blue);
+  --syntax-heading-h6: var(--violet);
+  --syntax-link: var(--blue);
+  --syntax-url: var(--blue);
+  --syntax-strikethrough: var(--base1);
+  --syntax-monospace: var(--magenta);
+  --syntax-monospace-bg: var(--base2);
+  --syntax-atom: var(--green);
+  --syntax-bool: var(--magenta);
+  --syntax-regexp: var(--cyan);
+  --syntax-meta: var(--base1);
+  --syntax-punctuation: var(--base1);
+
+  /* Inkdown Specific */
+  --inkdown-editor-bg: var(--base3);
+  --inkdown-editor-fg: var(--base00);
+  --inkdown-editor-selection: var(--base2);
+  --inkdown-editor-cursor: var(--base00);
+  --inkdown-editor-border: var(--base1);
+  --inkdown-editor-line-number: var(--base1);
+  --inkdown-editor-active-line: var(--base2);
+  --inkdown-editor-scrollbar: var(--base1);
+
+  --inkdown-syntax-keyword: var(--green);
+  --inkdown-syntax-string: var(--cyan);
+  --inkdown-syntax-number: var(--magenta);
+  --inkdown-syntax-comment: var(--base1);
+  --inkdown-syntax-strong: var(--base00);
+  --inkdown-syntax-emphasis: var(--base01);
+  --inkdown-syntax-link: var(--blue);
+  --inkdown-syntax-url: var(--blue);
+  --inkdown-syntax-strikethrough: var(--base1);
+  --inkdown-syntax-monospace: var(--magenta);
+  --inkdown-syntax-monospace-bg: var(--base2);
+
+  --inkdown-heading-h1: var(--orange);
+  --inkdown-heading-h2: var(--yellow);
+  --inkdown-heading-h3: var(--green);
+  --inkdown-heading-h4: var(--cyan);
+  --inkdown-heading-h5: var(--blue);
+  --inkdown-heading-h6: var(--violet);
+
+  --inkdown-syntax-atom: var(--green);
+  --inkdown-syntax-bool: var(--magenta);
+  --inkdown-syntax-regexp: var(--cyan);
+  --inkdown-syntax-meta: var(--base1);
+  --inkdown-syntax-punctuation: var(--base1);
+  --inkdown-syntax-list: var(--base1);
+  --inkdown-syntax-quote: var(--base1);
+  --inkdown-syntax-separator: var(--base1);
+}
+
+html[data-theme="solarized-light"] body {
+  background-color: var(--base3);
+  color: var(--base00);
+}
