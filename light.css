@@ -1,0 +1,244 @@
+/**
+ * Solarized Dark Theme
+ * Based on the famous Solarized color palette
+ */
+.theme-dark {
+    color-scheme: dark;
+
+    /* ==========================================================================
+       Solarized Color Palette
+       ========================================================================== */
+    --base03: #1c2426;
+    --base02: #273033;
+    --base01: #6e797c;
+    --base00: #7d888b;
+    --base0: #c1c7c9;
+    --base1: #d2d6d8;
+    --base2: #eaeaea;
+    --base3: #fdfdfd;
+
+    --yellow: #d8a600;
+    --orange: #e07b39;
+    --red: #e34d4d;
+    --magenta: #cc66a0;
+    --violet: #8a7fdf;
+    --blue: #4d94c4;
+    --cyan: #3fb0a5;
+    --green: #8bbf5e;
+
+    /* ==========================================================================
+       Background & Text
+       ========================================================================== */
+    --bg-primary: var(--base03);
+    --bg-secondary: var(--base02);
+    --bg-sidebar: var(--base02);
+
+    --text-primary: var(--base0);
+    --text-secondary: var(--base1);
+    --text-muted: var(--base01);
+
+    /* Border */
+    --border-color: var(--base00);
+
+    /* Primary Colors */
+    --color-primary: var(--orange);
+    --color-primary-hover: #c96527;
+
+    /* ==========================================================================
+       Editor Variables
+       ========================================================================== */
+    --editor-bg: var(--base03);
+    --editor-fg: var(--base0);
+    --editor-selection: rgba(110, 121, 124, 0.4);
+    --editor-cursor: var(--base0);
+    --editor-active-line: var(--base02);
+    --editor-line-number: var(--base01);
+    --editor-scrollbar: var(--base00);
+
+    /* ==========================================================================
+       Heading Sizes & Colors
+       ========================================================================== */
+    --heading-font-weight: 600;
+    --heading-line-height: 1.3;
+    --heading-h1: var(--red);
+    --heading-h1-size: 2em;
+    --heading-h2: var(--orange);
+    --heading-h2-size: 1.6em;
+    --heading-h3: var(--yellow);
+    --heading-h3-size: 1.4em;
+    --heading-h4: var(--green);
+    --heading-h4-size: 1.2em;
+    --heading-h5: var(--cyan);
+    --heading-h5-size: 1.1em;
+    --heading-h6: var(--violet);
+    --heading-h6-size: 1em;
+
+    /* ==========================================================================
+       Syntax Highlighting (Markdown)
+       ========================================================================== */
+    --syntax-header: var(--yellow);
+    --syntax-bold: var(--yellow);
+    --syntax-strong: var(--yellow);
+    --syntax-italic: var(--cyan);
+    --syntax-emphasis: var(--cyan);
+    --syntax-strikethrough: var(--base01);
+    --syntax-link: var(--cyan);
+    --syntax-url: var(--cyan);
+    --syntax-code: var(--violet);
+    --syntax-monospace: var(--violet);
+    --syntax-quote: var(--base01);
+    --syntax-list: var(--base0);
+    --syntax-separator: var(--base01);
+
+    /* ==========================================================================
+       Code Block Highlighting
+       ========================================================================== */
+    --code-bg: var(--base02);
+    --code-text: var(--base0);
+    --code-keyword: var(--orange);
+    --code-string: var(--green);
+    --code-comment: var(--base01);
+    --code-function: var(--blue);
+    --code-number: var(--magenta);
+    --code-operator: var(--orange);
+    --code-atom: var(--green);
+    --code-bool: var(--magenta);
+    --code-regexp: var(--orange);
+    --code-meta: var(--base01);
+    --code-punctuation: var(--base0);
+
+    /* ==========================================================================
+       CodeMirror Editor Syntax Highlighting
+       ========================================================================== */
+    --cm-comment: var(--base01);
+    --cm-keyword: var(--orange);
+    --cm-string: var(--green);
+    --cm-number: var(--magenta);
+    --cm-operator: var(--orange);
+    --cm-punctuation: var(--base0);
+    --cm-function: var(--blue);
+    --cm-property: var(--cyan);
+    --cm-variable: var(--base0);
+    --cm-type: var(--yellow);
+    --cm-tag: var(--green);
+    --cm-attribute: var(--cyan);
+    --cm-bool: var(--magenta);
+    --cm-null: var(--orange);
+    --cm-regexp: var(--orange);
+    --cm-meta: var(--base01);
+
+    /* Markdown-specific elements in editor */
+    --cm-heading-marker: var(--base01);
+    --cm-list-marker: var(--cyan);
+    --cm-quote-marker: var(--green);
+    --cm-link-bracket: var(--base01);
+    --cm-link-text: var(--cyan);
+    --cm-link: var(--cyan);
+    --cm-link-hover: var(--green);
+    --cm-link-url: var(--cyan);
+    --cm-code-marker: var(--base01);
+    --cm-emphasis-marker: var(--base01);
+    --cm-strong-marker: var(--base01);
+    --cm-highlight-marker: var(--base01);
+    --cm-strikethrough-marker: var(--base01);
+
+    /* Highlight Background */
+    --text-highlight-bg: rgba(216, 166, 0, 0.3);
+    --text-highlight-bg-active: rgba(216, 166, 0, 0.5);
+
+    /* ==========================================================================
+       Callout/Alert Colors
+       ========================================================================== */
+    --callout-note-bg: rgba(77, 148, 196, 0.1);
+    --callout-note-border: var(--blue);
+    --callout-note-title: var(--blue);
+    --callout-note-icon: var(--blue);
+
+    --callout-tip-bg: rgba(139, 191, 94, 0.1);
+    --callout-tip-border: var(--green);
+    --callout-tip-title: var(--green);
+    --callout-tip-icon: var(--green);
+
+    --callout-important-bg: rgba(138, 127, 223, 0.1);
+    --callout-important-border: var(--violet);
+    --callout-important-title: var(--violet);
+    --callout-important-icon: var(--violet);
+
+    --callout-warning-bg: rgba(224, 123, 57, 0.1);
+    --callout-warning-border: var(--orange);
+    --callout-warning-title: var(--orange);
+    --callout-warning-icon: var(--orange);
+
+    --callout-caution-bg: rgba(227, 77, 77, 0.1);
+    --callout-caution-border: var(--red);
+    --callout-caution-title: var(--red);
+    --callout-caution-icon: var(--red);
+
+    /* ==========================================================================
+       Table Colors
+       ========================================================================== */
+    --table-bg: var(--bg-primary);
+    --table-header-bg: rgba(110, 121, 124, 0.1);
+    --table-header-text: var(--text-primary);
+    --table-cell-text: var(--text-primary);
+    --table-border: rgba(110, 121, 124, 0.3);
+    --table-row-hover: rgba(110, 121, 124, 0.05);
+
+    /* ==========================================================================
+       Code Inline & Quote Styling
+       ========================================================================== */
+    --code-font-size: 0.9em;
+    --code-padding: 2px 6px;
+    --code-border-radius: 4px;
+    --quote-border-width: 3px;
+    --quote-padding-left: 12px;
+    --quote-margin-left: 0;
+
+    /* Font */
+    --font-family-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+
+    /* ==========================================================================
+       Scrollbar
+       ========================================================================== */
+    --scrollbar-width: 8px;
+    --scrollbar-border-radius: 4px;
+
+    /* ==========================================================================
+       UI Elements
+       ========================================================================== */
+    --button-secondary-bg: var(--base02);
+    --button-primary-bg: var(--color-primary);
+    --button-primary-text: var(--base03);
+    --button-secondary-text: var(--text-primary);
+
+    /* Tabs */
+    --tab-bg: transparent;
+    --tab-bg-active: var(--bg-primary);
+    --tab-border-active: var(--color-primary);
+
+    /* Input */
+    --input-bg: var(--base02);
+    --input-border: var(--base00);
+    --input-focus-border: var(--color-primary);
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+
+    /* ==========================================================================
+       Notice/Toast System
+       ========================================================================== */
+    --background-modifier-message: rgba(39, 48, 51, 0.95);
+    --background-modifier-success: rgba(139, 191, 94, 0.95);
+    --background-modifier-error: rgba(227, 77, 77, 0.95);
+
+    /* ==========================================================================
+       Component Modifiers
+       ========================================================================== */
+    --interactive-accent: var(--color-primary);
+    --interactive-accent-hover: var(--color-primary-hover);
+    --background-modifier-border: var(--border-color);
+    --background-modifier-hover: rgba(255, 255, 255, 0.05);
+    --background-modifier-active-hover: rgba(255, 255, 255, 0.1);
+}
